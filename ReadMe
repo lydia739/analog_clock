@@ -1,0 +1,14 @@
+README
+
+Project: Analog Clock in javascript/jquery
+
+Author: Lydia Keener
+
+Description: A responsive analog clock with animated balls in the background.
+
+Frameworks:
+- jQuery
+- Bootstrap with flex
+
+Installation:
+Download all the files and save to one folder. When finished, load index.html in your browser.

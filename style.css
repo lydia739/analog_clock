@@ -1,0 +1,83 @@
+/* Set up static styles */
+
+/* Make full page but no bigger */
+html, body {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Position the numbers on the clock and make them bold */
+p {
+  margin-left: 33.9vw;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Styles that apply to all the hands, including start point */
+.hand {
+   border: 2px solid black;
+   transform-origin: 1% 1%;
+   position: absolute;
+   padding: 0px;
+   justify-content: center;
+ }
+
+/* Styles for each hand, including length and start point */
+ #secondHand {
+   width: 30vh;
+   margin-left: 20vh;
+ }
+
+ #minuteHand {
+   width: 25vh;
+   margin-left: 15vh;
+ }
+
+ #hourHand {
+   width: 20vh; 
+   margin-left: 15vh;
+ }
+
+/* Make the clock and add a shadow background */
+ #clockShape {
+   border: 15px solid white;
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+   border-radius: 100%;
+   box-shadow: 0 0 25px black;
+   width: 72vh;
+   height: 72vh;
+   margin-top: 10.5vh;
+   margin-left: 33.2vw;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   display: flex;
+   vertical-align: middle;
+ }
+
+/* Make a black circle in the center to improve the look of the clock */
+ #center {
+   background-color: black;
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+   border-radius: 100%;
+   position: absolute;
+   width: 20vh;
+   height: 20vh;
+   align-items: center;
+   display: flex;
+ }
+
+/* Static styles for background balls */
+ .balls {
+   height: 40vh;
+   width: 40vh;
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+   border-radius: 100%;
+   position: absolute;
+   opacity:0.8;
+ }

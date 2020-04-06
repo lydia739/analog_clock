@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Analog Clock</title>
+
+    <!--Link JS scripts, style sheet, and jQuery and bootstrap libriaies. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="moveHands.js"></script>
+    <script type="text/javascript" src="positionNumbers.js"></script>
+    <script type="text/javascript" src="makeBalls.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <!-- Make the clock and non-repeated elements -->
+    <!-- Repeated elements such as the numbers and balls are made with JS in the files positionNumbers.js and makeBalls.js -->
+    <div id='clockShape'>
+      <div id="center"></div>
+        <div class="hand" id="secondHand"></div>
+        <div class="hand" id="minuteHand"></div>
+        <div class="hand" id="hourHand"></div>
+    </div>
+
+
+
+  </body>
+</html>
